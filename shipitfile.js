@@ -4,6 +4,7 @@ module.exports = function(shipit) {
   shipit.initConfig({
     default: {
       workspace: './',
+      repositoryUrl: 'https://github.com/dummas/nork.git',
       deployTo: '/var/www/nork/'
     },
     live: {
